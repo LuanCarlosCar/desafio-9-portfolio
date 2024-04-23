@@ -5,7 +5,7 @@ import ServiceList from "@/components/ServiceList";
 import Skills from "@/components/Skills";
 import { DM_Sans } from "next/font/google";
 
-export const dMsans = DM_Sans({
+const dMsans = DM_Sans({
   weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
